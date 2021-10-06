@@ -2,7 +2,6 @@ n = 30
 
 # 예제1: 행렬 연산으로 구현
 import numpy as np
-
 sequence = []
 A = np.matrix( [ [1,1], [1,0] ] )
 
