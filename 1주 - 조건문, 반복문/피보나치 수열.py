@@ -1,11 +1,12 @@
-n = 30
+# 눈여겨볼 점: 알고리즘에서 수학의 강력함
+N = 30
 
 # 예제1: 행렬 연산으로 구현
 import numpy as np
 sequence = []
 A = np.matrix( [ [1,1], [1,0] ] )
 
-for i in range(n):
+for i in range(N):
     sequence.append( (A**i)[0,1] )
 
 print(sequence)
@@ -15,7 +16,7 @@ print(sequence)
 sequence = []
 sqrt5 = 5 ** 0.5
 
-for i in range(n):
+for i in range(N):
     sequence.append(int(
         ( ((1+sqrt5)/2)**i  - ((1-sqrt5)/2)**i ) / sqrt5
     ))
