@@ -14,11 +14,11 @@ print(sequence)
 
 # 예제2: 일반식으로 구현
 sequence = []
-ROOT_5 = 5 ** (1/2)
+sqrt5 = 5 ** 0.5
 
 for i in range(n):
     sequence.append(int(
-        ( ((1+ROOT_5)/2)**i  - ((1-ROOT_5)/2)**i ) / ROOT_5
+        ( ((1+sqrt5)/2)**i  - ((1-sqrt5)/2)**i ) / sqrt5
     ))
 
 print(sequence)
