@@ -13,7 +13,6 @@ print(sequence)
 
 
 # 예제2: 일반식으로 구현
-
 sequence = []
 ROOT_5 = 5 ** (1/2)
 
