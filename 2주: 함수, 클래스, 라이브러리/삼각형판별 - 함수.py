@@ -8,7 +8,7 @@ tests = [
 ]
 
 
-def triangle(angles: list) -> int:
+def triangle(angles):
     if len(angles) != 3: return 0
     if sum(angles) != 180: return 0
 
@@ -20,7 +20,7 @@ def triangle(angles: list) -> int:
 
 
 for angles in tests:
-    result = triangle()
+    result = triangle(angles)
     names = {0:"삼각형이 아님", 1:"예각삼각형", 2:"직각삼각형", 3:"둔각삼각형"}
 
     print(angles, names[result])
